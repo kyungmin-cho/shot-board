@@ -10,10 +10,10 @@ Categories: Best Overall and Open Weights Only. All three models, SDXL Base 1.0,
 
 ## Try it without a GPU
 
-The [live demo](https://arcsolver.github.io/shot-board/) opens the three boards in the repo. To run them on your machine you need Git and uv:
+The [live demo](https://kyungmin-cho.github.io/shot-board/) opens the three boards in the repo. To run them on your machine you need Git and uv:
 
 ```sh
-git clone --depth 1 https://github.com/ArcSolver/shot-board.git shot-board
+git clone --depth 1 https://github.com/kyungmin-cho/shot-board.git shot-board
 cd shot-board
 uv venv .venv --python 3.12
 uv pip install --python .venv/bin/python -r requirements.lock.txt --require-hashes
